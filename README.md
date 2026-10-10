@@ -37,8 +37,9 @@ Ringkasan metode:
 | `analisis_final_tugas_anareg.R` | Seluruh analisis, dari membaca data sampai semua keluaran di `hasil_final/` |
 | `simpan_parameter_model_lama.R` | Menyimpan parameter Model 1 dan Model 2 untuk kurva di dashboard |
 | `app.R` | Dashboard Shiny; hanya membaca keluaran di `hasil_final/`, tidak menghitung ulang model |
-| `hasil_final/` | Keluaran analisis (CSV, PNG, RDS) dari run dengan `MODE_UJI <- FALSE` |
+| `hasil_final/` | Keluaran analisis (CSV, RDS) dari run dengan `MODE_UJI <- FALSE` |
 | `Concrete_Data.xls` | Data asli dari UCI Machine Learning Repository |
+| `laporan_uq_regresi_nonlinier_3d_rev_parafrase.docx` | Laporan dalam format Word |
 
 ## Cara menjalankan
 
@@ -56,7 +57,7 @@ install.packages("plotly")   # opsional: grafik 3D yang bisa diputar di dashboar
 
 Seed utama ditetapkan di skrip (`seed_utama <- 20261006`), sehingga hasil dapat direproduksi.
 
-Dashboard daring: [https://ciyayane.shinyapps.io/dashboard-regresi-nonlinear/]
+Dashboard daring: https://ciyayane.shinyapps.io/dashboard-regresi-nonlinear/
 
 ## Data
 
